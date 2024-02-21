@@ -1,0 +1,76 @@
+.ContainerItem {
+  flex: 1;
+  margin-bottom: 600px;
+  padding-top: 100px;
+  height: 600px;
+  width: fit-content;
+  /* position: relative; */
+}
+
+.AboutPro {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+
+.Desc {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.GenderWrap {
+  margin-top: 100px;
+  position: absolute;
+  /* top: 100; */
+  /* left: 0; */
+}
+
+.Info {
+  height: 100%;
+  width: 100%;
+}
+
+.Pro {
+  display: flex;
+  margin: 30px;
+  height: 500px;
+  width: 98%;
+  gap: 20px;
+}
+
+.Navi{
+  text-align: center;
+}
+
+.genderImg {
+  position: relative;
+  width: 96%;
+  height: 120%;
+  object-fit: cover;
+}
+.Gen {
+  position: absolute;
+  top: 280px;
+  margin-left: 19px;
+  width: 446px;
+  z-index: 1111;
+  color: rgb(11, 11, 11);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: white;
+  /* width: fit-content; */
+  /* height: fit-content; */
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  &:hover {
+    background-color: #5a5959;
+    color:white;
+    font-size: 30px;
+    font-weight: 500;
+    transition: 1s all ease-in-out;
+    text-decoration: none;
+  }
+}
